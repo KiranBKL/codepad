@@ -1,0 +1,12 @@
+a.out
+blog
+CodeStorm
+db.sqlite3
+manage.py
+media
+practice
+README.md
+requirements.txt
+stderr.txt
+test.txt
+users
