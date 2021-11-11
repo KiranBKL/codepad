@@ -46,16 +46,15 @@
           </div>
         </nav>
     </header>
-    <h3 style="color:#333333;margin-left:20px;">Write code in c or c++ here:</h3>
     <form action="" method="post">
       {% csrf_token %}
       <div class="control-panel">
         Select Language:
         &nbsp; &nbsp;
-        <select id="languages" class="languages" onchange="changeLanguage()">
-            <option value="cpp"> C++ or C</option>
-            <option value="php"> Java</option>
-            <option value="python"> Python </option>
+        <select id="languages" class="languages" name="changeoption">
+            <option value=1> C++ or C</option>
+            <option value="2"> Java</option>
+            <option value="3"> Python </option>
         </select>
     </div>
       <div class="" style="max-width:700px;height:auto;margin-left:10px;">
